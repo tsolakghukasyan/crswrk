@@ -75,6 +75,7 @@ def remove_whitespaces(sents):
     for s in sents:
         ss = remove_whitespaces_raw(s)
         temp.append(ss)
+
     return temp
 
 
